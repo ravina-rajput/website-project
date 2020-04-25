@@ -1,0 +1,108 @@
+body {
+    margin: 0px auto;
+}
+
+header {
+    background-image: url('https://cdn.pixabay.com/photo/2020/04/08/16/32/keyboard-5017973_960_720.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.secondary-nav {
+    display: flex;
+    list-style: none;
+    margin-top: 25px;
+    float: right; 
+}
+
+li {
+    margin-right: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid white;
+    font-size: 20px;
+    font-family: 'Baloo Bhaina 2', cursive;
+    transition: 0.8 ease;
+}
+
+ul li a:hover {
+    background-color: white;
+    color: black; 
+}
+
+ul li.active a{
+    background-color: white;
+    color: black; 
+}
+
+.rv-logo img {
+    float: left;
+    width: 200px;
+    height: auto; 
+}
+
+.login-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.login-title h1 {
+    color: white;
+    font-size: 40px;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+
+.button-div {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.button {
+    border: 1px solid white;
+    padding: 5px 30px;
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;
+    transition: 0.6 ease;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+}
+
+span {
+    color: yellow;
+}
+
+span:before {
+    content: '';
+    animation: animate infinite 8s;
+}
+
+@keyframes animate {
+    0% {
+        content: 'Ravina Rajput';
+    }
+    30% {
+        content: 'Full Stack Developer';
+    }
+    70% {
+        content: 'Mern Stack Developer';
+    }
+    100% {
+        content: 'React.js Developer';
+    }
+}
+
+
